@@ -1,0 +1,13 @@
+pydantic>=2
+requests
+numpy
+scipy
+soundfile
+faster-whisper>=1.1      # ASR
+pyannote.audio>=3.1      # diarization (gated HF model, needs HF_TOKEN)
+# training only:
+transformers
+peft
+trl
+bitsandbytes
+datasets

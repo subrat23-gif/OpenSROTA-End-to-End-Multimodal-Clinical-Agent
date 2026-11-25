@@ -1,0 +1,26 @@
+# Environments
+.venv39/
+__pycache__/
+*.pyc
+
+# Data & Models (CRITICAL: DO NOT UPLOAD THESE)
+data/
+recovery_inputs/
+outputs/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.wav
+*.jsonl
+
+# Logs & SLURM outputs
+logs/
+*.log
+*.err
+*.out
+slurm-*
+
+# OS files
+.DS_Store
+.venv_tts39/
